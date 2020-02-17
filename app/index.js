@@ -11,6 +11,7 @@ Array.prototype.insert = function ( index, item ) {
 // Listen for the onopen event
 messaging.peerSocket.onopen = ()=>{
   messaging.peerSocket.send("Hi!");
+  console.log("hi");
 }
 
 function setErrorMessage(message){
