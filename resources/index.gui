@@ -1,0 +1,335 @@
+<svg>
+   <defs>
+    <symbol id="my-tile-item" href="#tile-list-item" focusable="false" pointer-events="none" system-events="all" display="none">
+      <use id="icon" href="#static-image"  height="30" width="10%" y="5">
+      <set href="image" attributeName="href" to="stop.png"/>
+    </use>
+      <text id="txt_route_name" x="15%" y="20" class="route_name" />
+      <text id="txt_route_time" x="15%" y ="40" class="route_time" />
+      <rect id="touch-me" pointer-events="all" x="0" y="0" width="100%" height="100%-2" opacity="0" />
+    </symbol>
+  </defs>
+  
+  <use id="container" href="#panoramaview"  display="none">
+   <use id="item0" href="#panoramaview-item" height="100%" class="panorama_item" >  
+        
+       <use id="list0" href="#tile-list" class="list"  height="90%" width="100%">           
+           <var id="virtual" value="1" />        
+         
+           <use id="my-pool" href="#tile-list-pool" >  
+              <use id="my-pool[1]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[2]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[3]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[4]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[5]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[6]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[7]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[8]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[9]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[10]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[11]" href="#my-tile-item" class="tile-list-item" />              
+              <use id="my-pool[12]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[13]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[14]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[15]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[16]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[17]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[18]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[19]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[20]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[21]" href="#my-tile-item" class="tile-list-item" />
+           </use>
+       </use>        
+    </use>
+    
+    <use id="item1" href="#panoramaview-item" height="100%" class="panorama_item" >  
+    <use id="list1" href="#tile-list" class="list"  height="90%" width="100%">           
+           <var id="virtual" value="1" />        
+         
+           <use id="my-pool" href="#tile-list-pool" >  
+              <use id="my-pool[1]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[2]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[3]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[4]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[5]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[6]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[7]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[8]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[9]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[10]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[11]" href="#my-tile-item" class="tile-list-item" />              
+              <use id="my-pool[12]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[13]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[14]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[15]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[16]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[17]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[18]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[19]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[20]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[21]" href="#my-tile-item" class="tile-list-item" />
+           </use>
+       </use>  
+    </use>
+    <use id="item2" href="#panoramaview-item" height="100%" class="panorama_item" >  
+    <use id="list2" href="#tile-list" class="list"  height="90%" width="100%">           
+           <var id="virtual" value="1" />        
+         
+           <use id="my-pool" href="#tile-list-pool" >  
+              <use id="my-pool[1]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[2]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[3]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[4]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[5]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[6]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[7]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[8]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[9]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[10]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[11]" href="#my-tile-item" class="tile-list-item" />              
+              <use id="my-pool[12]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[13]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[14]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[15]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[16]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[17]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[18]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[19]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[20]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[21]" href="#my-tile-item" class="tile-list-item" />
+           </use>
+       </use>  
+    </use>
+    <use id="item3" href="#panoramaview-item" height="100%" class="panorama_item" >  
+    <use id="list3" href="#tile-list" class="list"  height="90%" width="100%">           
+           <var id="virtual" value="1" />        
+         
+           <use id="my-pool" href="#tile-list-pool" >  
+              <use id="my-pool[1]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[2]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[3]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[4]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[5]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[6]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[7]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[8]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[9]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[10]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[11]" href="#my-tile-item" class="tile-list-item" />              
+              <use id="my-pool[12]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[13]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[14]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[15]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[16]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[17]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[18]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[19]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[20]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[21]" href="#my-tile-item" class="tile-list-item" />
+           </use>
+       </use>  
+    </use>
+    <use id="item4" href="#panoramaview-item" height="100%" class="panorama_item" >  
+    <use id="list4" href="#tile-list" class="list"  height="90%" width="100%">           
+           <var id="virtual" value="1" />        
+         
+           <use id="my-pool" href="#tile-list-pool" >  
+              <use id="my-pool[1]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[2]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[3]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[4]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[5]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[6]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[7]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[8]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[9]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[10]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[11]" href="#my-tile-item" class="tile-list-item" />              
+              <use id="my-pool[12]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[13]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[14]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[15]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[16]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[17]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[18]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[19]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[20]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[21]" href="#my-tile-item" class="tile-list-item" />
+           </use>
+       </use>  
+    </use>
+    
+    <use id="item5" href="#panoramaview-item" height="100%" class="panorama_item" >  
+    <use id="list5" href="#tile-list" class="list"  height="90%" width="100%">           
+           <var id="virtual" value="1" />        
+         
+           <use id="my-pool" href="#tile-list-pool" >  
+              <use id="my-pool[1]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[2]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[3]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[4]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[5]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[6]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[7]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[8]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[9]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[10]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[11]" href="#my-tile-item" class="tile-list-item" />              
+              <use id="my-pool[12]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[13]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[14]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[15]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[16]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[17]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[18]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[19]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[20]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[21]" href="#my-tile-item" class="tile-list-item" />
+           </use>
+       </use>  
+    </use>
+    
+    <use id="item6" href="#panoramaview-item" height="100%" class="panorama_item" >  
+    <use id="list6" href="#tile-list" class="list"  height="90%" width="100%">           
+           <var id="virtual" value="1" />        
+         
+           <use id="my-pool" href="#tile-list-pool" >  
+              <use id="my-pool[1]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[2]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[3]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[4]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[5]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[6]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[7]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[8]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[9]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[10]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[11]" href="#my-tile-item" class="tile-list-item" />              
+              <use id="my-pool[12]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[13]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[14]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[15]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[16]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[17]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[18]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[19]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[20]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[21]" href="#my-tile-item" class="tile-list-item" />
+           </use>
+       </use>  
+    </use>
+    
+    <use id="item7" href="#panoramaview-item" height="100%" class="panorama_item" >  
+    <use id="list7" href="#tile-list" class="list"  height="90%" width="100%">           
+           <var id="virtual" value="1" />        
+         
+           <use id="my-pool" href="#tile-list-pool" >  
+              <use id="my-pool[1]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[2]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[3]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[4]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[5]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[6]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[7]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[8]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[9]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[10]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[11]" href="#my-tile-item" class="tile-list-item" />              
+              <use id="my-pool[12]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[13]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[14]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[15]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[16]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[17]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[18]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[19]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[20]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[21]" href="#my-tile-item" class="tile-list-item" />
+           </use>
+       </use>  
+    </use>
+    
+    <use id="item8" href="#panoramaview-item" height="100%" class="panorama_item" >  
+    <use id="list8" href="#tile-list" class="list"  height="90%" width="100%">           
+           <var id="virtual" value="1" />        
+         
+           <use id="my-pool" href="#tile-list-pool" >  
+              <use id="my-pool[1]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[2]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[3]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[4]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[5]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[6]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[7]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[8]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[9]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[10]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[11]" href="#my-tile-item" class="tile-list-item" />              
+              <use id="my-pool[12]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[13]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[14]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[15]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[16]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[17]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[18]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[19]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[20]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[21]" href="#my-tile-item" class="tile-list-item" />
+           </use>
+       </use>  
+    </use>
+    
+    <use id="item9" href="#panoramaview-item" height="100%" class="panorama_item" >  
+    <use id="list9" href="#tile-list" class="list"  height="90%" width="100%">           
+           <var id="virtual" value="1" />        
+         
+           <use id="my-pool" href="#tile-list-pool" >  
+              <use id="my-pool[1]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[2]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[3]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[4]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[5]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[6]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[7]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[8]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[9]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[10]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[11]" href="#my-tile-item" class="tile-list-item" />              
+              <use id="my-pool[12]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[13]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[14]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[15]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[16]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[17]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[18]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[19]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[20]" href="#my-tile-item" class="tile-list-item" />
+              <use id="my-pool[21]" href="#my-tile-item" class="tile-list-item" />
+           </use>
+       </use>  
+    </use>
+    
+    <!-- Have enough pagination dots for your slides (extras are hidden) -->
+    <use id="pagination-dots" href="#pagination-widget" y="90%">
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-highlight-dot" />
+    </use>  
+    
+  </use>
+  
+   <use id="txt_status" href="#mixed-text-center-mid" height="100%" width="100%" fill="fb-yellow" display="none" >
+      <set href="#header/text" attributeName="text-buffer" to="Information"/>
+      <set href="#copy/text" attributeName="text-buffer" to="This is the center and middle-aligned body text."/>
+    </use>
+  
+  
+</svg>

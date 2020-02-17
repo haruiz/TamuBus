@@ -1,0 +1,19 @@
+
+.tile-list-item { height: 50;  x:10}
+
+.tile-list-item text.route_name {
+  font-size: 20;
+  font-family: System-Regular;
+  font-weight: regular;
+  text-length: 100;
+  fill: "white";
+}
+
+.tile-list-item text.route_time {
+  font-size: 15;
+  font-family: System-Regular;
+  font-weight: regular;
+  text-length: 100;
+  fill: "gray";
+}
+

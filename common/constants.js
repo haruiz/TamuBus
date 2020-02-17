@@ -1,0 +1,1 @@
+var config =  { TAMU_API_URI : "https://transport.tamu.edu/BusRoutesFeed/api/Route" }; export default config;

@@ -1,0 +1,27 @@
+{
+  "fitbit": {
+    "appUUID": "7acc8355-becc-4e05-b7c1-ddc757617015",
+    "appType": "app",
+    "appDisplayName": "TamuBus",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_internet"
+    ],
+    "buildTargets": [
+      "meson",
+      "gemini",
+      "mira",
+      "higgs"
+    ],
+    "i18n": {
+      "en": {
+        "name": "TamuBus"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}
